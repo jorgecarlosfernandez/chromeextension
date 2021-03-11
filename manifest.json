@@ -1,1 +1,10 @@
-
+{
+    "manifest_version": 2,
+    "name": "Night Feature",
+    "version": "1.0",
+    "description": "Turns body of web page black", 
+    "content_scripts": [{
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+    }]
+}
